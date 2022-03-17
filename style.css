@@ -1,0 +1,52 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    padding-top: 30px;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.title{
+    width: 100%;
+    background-color: violet;
+    height: 40px;
+    text-align: center;
+}
+
+.inputs__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 190px;
+    background-color: blueviolet;
+    padding: 0 10px;
+}
+
+.inputs__container input{
+    width: 100%;
+    max-width: 190px;
+    height: 33px;
+}
+
+#msg{
+    width: 100%;
+    height: 130px;
+    background-color: slategrey;
+}
